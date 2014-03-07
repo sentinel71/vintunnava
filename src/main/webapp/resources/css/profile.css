@@ -1,0 +1,169 @@
+.btn-login,.btn-logout{
+	margin-left:15px;
+	margin-top: 10px;
+}
+
+
+.navbar{
+	font-family: 'Roboto';
+	border-radius: 0;
+}
+
+.blue{
+	color: #53a0ff;
+}
+
+.orange{
+	color: #f9822a;
+}
+.logo{
+	margin-top: -5px;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.form-control{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.horizontal-divider{
+ 
+  height:1px;
+  background-color:#ccc;
+  margin: 50px 0;
+ 
+}
+
+.login_form{
+	background: url(../img/or-seperator-vertical.png) no-repeat center center;
+}
+
+.btn-fb,.btn-fb:hover,.btn-fb:active,.btn-fb:focus{
+	background: #3c5898;
+	border: 0;
+}
+.btn-g,.btn-g:hover,.btn-g:active,.btn-g:focus{
+	background: #dd4d3b;
+	border: 0;
+}
+
+.btn-t,.btn-t:hover,.btn-t:active,.btn-t:focus{
+	background: #3799FF;
+	border: 0;
+}
+
+.btn-t,.btn-g,.btn-fb{
+	margin-top: 10px ! important;
+}
+
+
+.booking-history , .profile{
+	width: 100%;
+	min-height: 600px;
+	border:solid 1px #ccc;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 30px 50px ;
+
+}
+
+.booking-history table th{
+	color: #aaa;
+	
+}
+.booking-history td{
+	color: #34495e;
+}
+
+.booking-history table{
+	margin-top: 10px;
+	border-color: #ccc;
+}
+ .title{
+	font-family: 'Roboto' !important;
+	font-size: 24px !important;
+	color: #222;
+}
+
+.small{
+	font-size: 11px;
+}
+.nav-profile{
+	border:none ! important;
+}
+
+
+
+.month ,.day , .year{
+	display: block;
+	font-family: 'Roboto';
+	font-size: 11px;
+	padding: 0px 7px;
+	border: solid 1px #ccc;
+	width:40px;
+}
+
+.month{
+	background-color: #53a0ff;
+	color: white;
+	border-bottom: none;
+	border-color: #53a0ff;
+}
+
+.day,.year{
+	background-color: #FAFAFA;
+
+}
+
+.day{
+	color:#34495e;
+	font-size: 18px;
+	line-height: 19px;
+	border-bottom: none;
+	
+}
+.year{
+	color: #919bac;
+	border-top: none;
+	font-size: 10px;
+	border-radius: 0 0 3px 3px ;
+}
+
+.name,.booking-id,.package,.price{
+	padding-top: 20px !important;
+}
+ .active .profile-tabs,
+ .active .profile-tabs:hover,
+ .active .profile-tabs:focus {
+  color: #fff !important;
+  background-color : #53a0ff !important;
+  border: 1px solid #fff !important;
+  border-radius: 0px !important;
+  font-family: 'Roboto'
+}
+
+.profile-tabs,
+.profile-tabs:hover,
+.profile-tabs:focus{
+	border-radius: 0px !important;
+	background-color: ;
+	font-family: 'Roboto';
+	border: 1px solid #fff !important;
+}
+
+.social-icons img{
+	width: 32px;
+	height: auto;
+	margin-top: 13px;
+}
+.copy{
+	margin-top: 15px;
+}
+.footer{
+	height: 50px;
+	background-color: #222;
+	color: white;
+	font-family: 'Roboto'
+}

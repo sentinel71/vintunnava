@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Cruise" transaction-type="RESOURCE_LOCAL">
+	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+<!-- 	<class>com.portal.model.User</class> -->
+<!-- 	<class>com.portal.model.VerificationType</class> -->
+	<class>com.portal.model.Amenity</class>
+	<class>com.portal.model.Areaofinterest</class>
+	<class>com.portal.model.Cuisine</class>
+	<class>com.portal.model.Extrarate</class>
+	<class>com.portal.model.Houseboattype</class>
+	<class>com.portal.model.Place</class>
+	<class>com.portal.model.Rateplan</class>
+	<class>com.portal.model.Roomtype</class>
+	<class>com.portal.model.Route</class>
+	<class>com.portal.model.Tarifftype</class>
+	<class>com.portal.model.Tariff</class>
+	<class>com.portal.model.Tax</class>
+	<class>com.portal.model.Booking</class>
+	<class>com.portal.model.Address</class>
+	<class>com.portal.model.Addresstype</class>
+	<class>com.portal.model.City</class>
+	<class>com.portal.model.User</class>
+	</persistence-unit>
+</persistence>

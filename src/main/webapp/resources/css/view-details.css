@@ -1,0 +1,167 @@
+.btn-login,.btn-logout{
+	margin-left:15px;
+	margin-top: 10px;
+}
+.user{
+	display: none ! important;
+}
+.navbar{
+	font-family: 'Roboto';
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.blue{
+	color: #53a0ff;
+}
+
+.orange{
+	color: #f9822a;
+}
+.logo{
+	margin-top: -5px;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.form-control{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.login_form{
+	background: url(../img/or-seperator-vertical.png) no-repeat center center;
+}
+
+.btn-fb,.btn-fb:hover,.btn-fb:active,.btn-fb:focus{
+	background: #3c5898;
+	border: 0;
+}
+.btn-g,.btn-g:hover,.btn-g:active,.btn-g:focus{
+	background: #dd4d3b;
+	border: 0;
+}
+
+.btn-t,.btn-t:hover,.btn-t:active,.btn-t:focus{
+	background: #3799FF;
+	border: 0;
+}
+
+.btn-t,.btn-g,.btn-fb{
+	margin-top: 10px ! important;
+}
+
+
+.main-content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	border: solid 1px #53a0ff;
+	border-bottom-color:transparent;
+	border-top-width: 5px;  
+	border-radius: 0;
+}
+.nav-tabs > li > a{
+	color: #53a0ff;
+}
+.nav-tabs > li > a:hover{
+	border-radius: 0px;
+}
+#MyTab{
+	font-size: 1.25em;
+	font-family: 'roboto';
+	font-weight: 300;
+	color: rgb(100,100,100);
+	border-bottom: solid 1px #53a0ff;
+}
+.details{
+	background-color: rgb(230,230,230);
+	font-family: 'Roboto';
+	border-radius: 6px;
+	padding-bottom: 20px;
+}
+
+.details .title{
+	font-size: 1.25em;
+	text-align: center;
+	margin-top: 10px;
+	color: rgb(100,100,100);
+	font-family: 'Roboto Slab';
+}
+
+hr{
+	border: 0;
+    border-bottom: 1px dashed rgb(100,100,100);
+    background: transparent;
+    margin: 0;
+}
+
+table .price{
+	font-size: 1.5em;
+	color: #53a0ff;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+table .type{
+	font-size: 1.5em;
+	color: rgb(100,100,100);
+}
+.details .price{
+	font-size: 3em;
+	text-align: center;
+	color: #53a0ff;
+	font-family: 'Roboto Slab';
+	margin: 0;
+}
+
+.btn-book{
+	font-size: 1.5em;
+	font-family: 'Roboto Slab';
+	width: 100%;
+}
+
+.price-per-adult{
+	font: 'Roboto';
+	font-size: '1em';
+	text-align: center;
+	color: rgb(100,100,100);
+}
+
+.details select{
+	width: 100%;
+	padding:3px 5px;
+	border-color: #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.details select:focus{
+	outline: none;
+}
+
+.tab-pane{
+	padding: 20px ; 
+}
+
+.social-icons img{
+	width: 32px;
+	height: auto;
+	margin-top: 13px;
+}
+.copy{
+	margin-top: 15px;
+}
+.footer{
+	height: 50px;
+	background-color: #222;
+	color: white;
+	font-family: 'Roboto'
+}
+
+
+

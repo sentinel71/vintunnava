@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">	
+		<tr>
+			<td style="padding: 10px 0 30px 0;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc; border-collapse: collapse;">
+					<tr>
+						<td  align="center" bgcolor="#222" style="padding: 20px 0 15px 0;">
+						    <a href="http://triptoparadise.in"><img src="http://dinnu93.github.io/logo.png"/ style="float:left;margin-left:30px;"></a><br/>
+						    <p style="text-decoration:none;color:white;font-size:25px;font-family:Arial;font-weight:bold;text-shadow:0 0 30px white">Welcome to TripToParadise</a>
+							
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
+										<b>Thank you for registering!</b>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+										Hi,<br/><br/>
+										To complete your registration, you must verify your email address by clicking the button below.<br/><br/>
+										<a style="background:#53a0ff;text-decoration:none;height:40px;border:none;color:white;padding:10px;font-size:16px;cursor:pointer" href="http://192.168.1.142:8080/Cruise/accountActivate?hash=$user.verificationKey&uid=$user.userId">Click here to verify your email</a>
+											
+									</td>
+								</tr>
+								
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#222" style="padding: 30px 30px 30px 30px;">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;" width="75%">
+										&copy; TriptoParadise<br/>
+									</td>
+									<td align="right" width="25%">
+										<table border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td style="font-family: Arial, sans-serif; font-size: 12px; font-weight: bold;">
+													<a href="http://www.twitter.com/" style="color: #ffffff;">
+														<img src="http://192.168.1.142:8080/Cruise/resources/img/twitter1.png" alt="Twitter" width="38" height="38" style="display: block;" border="0" />
+													</a>
+												</td>
+												<td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
+												<td style="font-family: Arial, sans-serif; font-size: 12px; font-weight: bold;">
+													<a href="http://www.twitter.com/" style="color: #ffffff;">
+														<img src="http://192.168.1.142:8080/Cruise/resources/img/facebook1.png" alt="Facebook" width="38" height="38" style="display: block;" border="0" />
+													</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

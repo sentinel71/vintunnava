@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*===========END==========*/
+body{
+	min-width: 1200px;
+}
+#home{
+	height: 700px;
+	width: 100%;
+	background-image: url(background.jpg);
+	background-position: center bottom;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+
+	background-color: rgba(255,255,255,0.85);
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-ms-box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+header ul{
+	float: right;
+	margin-right: 13.75%;
+}
+
+header ul li{
+	display: inline-block;
+	font-family: 'Roboto';
+	font-size: 1em;
+	margin-right:40px; 
+	margin-top: 40px;
+}
+
+header ul li a{
+	color:#53a0ff;
+	text-decoration: none;
+}
+
+
+header ul{
+	text-align: center;
+}
+
+header img{
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	margin-left:13.75%;
+}
+
+.container{
+	width:100%;
+	height: 680px;
+	
+}
+.empty{
+	height: 80px;
+	width: 100%;
+}
+.content{
+	width: 100%;
+	height: 600px;
+}
+
+.menu{
+	height: 40px;
+	width: 100%;
+	background-color: rgba(62,65,65,0.85);
+	border-bottom: solid 1px #53a0ff;
+	border-top: solid 1px #53a0ff;
+}
+
+.menu p{
+	font-family: 'Yanone Kaffeesatz';
+	margin-left: 13.75%;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 8px;
+}
+
+.hero{
+	float: right;
+	color:white;
+	margin-right: 30%;
+	font-family: 'Yanone Kaffeesatz';
+	height: 300px;
+	width: 30%;
+	margin-top: 205px;
+	padding-top: 30px;
+}
+
+.hero .title{
+	margin-left: 10%;
+	font-size: 2.25em;
+	width:305px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+.hero input[type="text"]{
+	margin-left: 10%;
+	border: solid 5px rgb(40,40,40);
+	height:30px;
+	width:295px;
+	font-size: 1.25em;
+	color: rgb(40,40,40);
+	text-align: center;
+	font-family: 'Lato'
+}
+
+.hero input[type="submit"]{
+	margin-left: 10%;
+	background-color: rgb(40,40,40);
+	width: 305px;
+	border:0 ;
+	color: white;
+	font-family: 'Yanone Kaffeesatz';
+	margin-top: 20px;
+	font-size: 1.75em;
+	height: 40px;
+	outline: none;
+	cursor: pointer;
+}
+.hero input[type="submit"]:focus{
+	outline: none;
+}
+#listing{
+	width: 100%;
+}
+
+.list{
+	margin-left: 13.75%;
+	margin-right: 13.75%;
+	border-right: solid 1px #c7c7c7;
+	border-left: solid 1px #c7c7c7; 
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+.item{
+	height: 250px;
+	margin-right: 5%;
+	margin-left: 5%;
+	border: solid 1px #c7c7c7;
+	margin-top: 50px;
+}
+
+.item .left{
+	width: 73.5%;
+	margin-left: 1.5%;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 220px;
+
+}
+
+.item .right{
+	width: 23.5%;
+	float: right;
+	height: 250px;
+	background-color: rgb(250,250,250);
+	border-left: solid 1px #c7c7c7;
+}
+
+.left .top{
+	width:100%;
+	height: 30px;
+}
+.top .duration{
+	width:110px;
+	height: 22px;
+	background-color: #53a0ff;
+	color: white;
+	font-family: 'Lato';
+	padding : 4px 6px;
+}
+
+
+
+.top .name{
+	font-size: 20px;
+	font-family: 'Lato';
+	color:#3799FF;
+	margin-left: 20px;
+}
+
+.bottom{
+	margin-top:15px;
+}
+
+.bottom .locations{
+	font-family: 'Lato';
+	color: rgb(40,40,40);
+	float:left
+}
+
+.bottom .line{
+	width:1px;
+	background-color: #c7c7c7;
+	height: 150px;
+	float: left;
+}
+
+.bottom .activity{
+	font-family: 'Lato';
+	color: rgb(40,40,40);
+	float:left;
+	font-size: 0.85em;
+}
+
+
+.right .cost{
+	margin-top: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	width:80%;
+	height: 70px;
+	font-family: 'Lato';
+	border-radius: 5px;
+	border:solid 1px #c7c7c7;
+	color: #f9822a;
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+}
+
+button{
+	margin-top: 15px;
+	margin-left: 25%;
+	width:50%;
+	height: 35px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+button:focus{
+	outline: none;
+
+}
